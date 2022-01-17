@@ -68,7 +68,7 @@ echo -e ""
 echo -e "\e[1;104m==========================================================\e[0m"
 sleep 2
 
-GitUser="syapik96"
+GitUser="masjeho"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket ./websocket.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
