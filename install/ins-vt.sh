@@ -509,7 +509,7 @@ sleep 2
 GitUser="masjeho"
 # Download Script
 cd /usr/local/sbin
-wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojan.sh"
+wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
 wget -O v2raay "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/v2raay.sh"
 wget -O vleess "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/vleess.sh"
 wget -O addws "https://raw.githubusercontent.com/${GitUser}/aws/main/tambah/addws.sh"
@@ -528,7 +528,7 @@ wget -O xp-ws "https://raw.githubusercontent.com/${GitUser}/aws/main/xp-ws.sh"
 wget -O xp-tr "https://raw.githubusercontent.com/${GitUser}/aws/main/xp-tr.sh"
 wget -O xp-vless "https://raw.githubusercontent.com/${GitUser}/aws/main/xp-vless.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/${GitUser}/aws/main/cert.sh"
-chmod +x trojan
+chmod +x trojaan
 chmod +x v2raay
 chmod +x vleess
 chmod +x addws
