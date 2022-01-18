@@ -3,7 +3,7 @@
 
 
 #
-GitUser="syapik96"
+GitUser="masjeho"
 #wget https://github.com/${GitUser}/
 #Install_Packages
 echo "#############################################"
@@ -93,7 +93,7 @@ ip6tables -I INPUT -m state --state NEW -m udp -p udp --dport 2443:3543 -j ACCEP
 iptables-save > /etc/iptables.up.rules
 ip6tables-save > /etc/ip6tables.up.rules
 
-GitUser="syapik96"
+GitUser="masjeho"
 cd /usr/bin
 wget -O addss "https://raw.githubusercontent.com/${GitUser}/aws/main/tambah/addss.sh"
 wget -O delss "https://raw.githubusercontent.com/${GitUser}/aws/main/hapus/delss.sh"
