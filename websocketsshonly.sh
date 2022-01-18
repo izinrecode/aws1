@@ -2,7 +2,7 @@
 #
 
 # Edu OVPN
-wget -q -O /usr/local/bin/edu-ovpn "https://raw.githubusercontent.com/syapik96/aws/main/lain2/ovpn.py"
+wget -q -O /usr/local/bin/edu-ovpn "https://raw.githubusercontent.com/masjeho/aws/main/lain2/ovpn.py"
 chmod +x /usr/local/bin/edu-ovpn
 
 # Installing Service
@@ -30,7 +30,7 @@ systemctl enable edu-ovpn
 systemctl restart edu-ovpn
 
 # ws-dropbear
-wget -q -O /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/syapik96/aws/main/lain2/dropbear-ws.py"
+wget -q -O /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/masjeho/aws/main/lain2/dropbear-ws.py"
 chmod +x /usr/local/bin/ws-dropbear
 
 # Installing Service
@@ -58,7 +58,7 @@ systemctl enable ws-dropbear
 systemctl restart ws-dropbear
 
 #edusshssl
-wget -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/syapik96/aws/main/lain2/ws-stunnel.py"
+wget -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/masjeho/aws/main/lain2/ws-stunnel.py"
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service
@@ -86,7 +86,7 @@ systemctl enable ws-stunnel
 systemctl restart ws-stunnel
 
 #edu-openssh
-wget -O /usr/local/bin/edu-openssh "https://raw.githubusercontent.com/syapik96/aws/main/lain2/edu-openssh.py"
+wget -O /usr/local/bin/edu-openssh "https://raw.githubusercontent.com/masjeho/aws/main/lain2/edu-openssh.py"
 chmod +x /usr/local/bin/edu-openssh
 
 # Installing Service
