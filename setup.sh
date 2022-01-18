@@ -139,6 +139,6 @@ echo -e "---------------------\e[1;32m\e[1;104mCopyright 2022 @ Prince Newbie\e[
 echo ""  | tee -a log-install.txt
 echo -e " Telegram : t.me/PrinceNewbie" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo -e "${red} Reboot in 10 Sec${NC}"
-sleep 10
-reboot
+#echo -e "${red} Reboot in 10 Sec${NC}"
+#sleep 10
+#reboot
