@@ -109,7 +109,7 @@ case $menu in
 	;;
 	8)
 	clear
-	trojan
+	trojaan
 	exit
 	;;
 	9)
