@@ -4,7 +4,7 @@
 # Centos 7 & 8 64bit 
 # Mod by SL
 # ==================================================
-GitUser="syapik96"
+GitUser="masjeho"
 #wget https://github.com/${GitUser}/
 
 # Check OS version
@@ -89,7 +89,7 @@ systemctl is-active --quiet "wg-quick@wg0"
 WG_RUNNING=$?
 
 # Tambahan
-GitUser="syapik96"
+GitUser="masjeho"
 #wget https://github.com/${GitUser}/
 cd /usr/bin
 wget -O addwg "https://raw.githubusercontent.com/${GitUser}/aws/main/tambah/addwg.sh"
