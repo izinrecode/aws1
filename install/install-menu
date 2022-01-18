@@ -1,6 +1,6 @@
 #!bin/bash
 
-GitUser=""
+GitUser="masjeho"
 # location 
 cd /usr/local/sbin
 # hapus yang terdahulu elak conflik 
