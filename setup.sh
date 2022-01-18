@@ -34,7 +34,7 @@ if [[ ! -e /etc/v2ray ]]; then
     echo -e "${red}Make sure to install this script on a fresh vps only${NC}"
     echo -e "${red}      to avoid problems when installing${NC}"
     sleep 5
-    exit 1
+#    exit 1
 else
     mkdir /etc/v2ray
 fi
