@@ -3,7 +3,7 @@
 # 2022
 # ==================================================
 
-GitUser="syapik96"
+GitUser="masjeho"
 #wget https://github.com/${GitUser}/
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -99,13 +99,13 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/syapik96/aws/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/masjeho/aws/main/nginx.conf"
 
 Index_port='81'
 IPADDR=$(wget -qO- icanhazip.com);
 # creating page download Openvpn config file
 mkdir -p /home/vps/public_html
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/syapik96/aws/main/lain2/index.html"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/masjeho/aws/main/lain2/index.html"
 
 # Setting template's correct name,IP address and nginx Port Page Openvpn
 sed -i "s|NGINXPORT|$Index_port|g" /home/vps/public_html/index.html
