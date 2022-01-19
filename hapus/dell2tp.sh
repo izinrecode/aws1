@@ -39,7 +39,7 @@ echo -e " \e[1;31mL2TP/IPSEC PSK User Akun berhasil dihapus\e[0m"
 echo -e " =========================================" | lolcat
 echo -e ""
 echo -e "       \e[1;31mClient Name :\e[0m \e[1;32m$VPN_USER\e[0m"
-echo -e "       \e[1:31mExpired On  :\e[0m \e[1;32m$exp\e[0m"
+echo -e "       \e[1;31mExpired On  :\e[0m \e[1;32m$exp\e[0m"
 echo -e ""
 echo -e " ==========================================" | lolcat
 echo -e ""
