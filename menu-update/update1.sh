@@ -4,7 +4,7 @@ GitUser="masjeho"
 # location 
 cd /usr/local/sbin
 # hapus yang terdahulu elak conflik 
-rm -rf /usr/local/sbin/{trojaan,sssh,add-host,menu,system,hapus,member,renew,restart,cek,trial,wbmn,delete,info,autokick,ceklim,tendang,clear-log,ram}
+rm -rf /usr/local/sbin/{trojaan,sssh,add-host,menu,system,hapus,member,renew,restart,cek,trial,webmin.sh,delete,info,autokick,ceklim,tendang,clear-log,ram}
 # update menu
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/${GitUser}/aws/main/about.sh"
@@ -42,7 +42,7 @@ chmod +x trial
 chmod +x hapus
 chmod +x member
 chmod +x delete
-chmod +x wbmn
+chmod +x webmin.sh
 chmod +x cek
 chmod +x restart
 chmod +x info
