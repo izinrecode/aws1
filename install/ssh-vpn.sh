@@ -347,7 +347,7 @@ wget -O autokick "https://raw.githubusercontent.com/${GitUser}/aws/main/autokick
 wget -O ceklim "https://raw.githubusercontent.com/${GitUser}/aws/main/ceklim.sh" && chmod +x ceklim
 wget -O tendang "https://raw.githubusercontent.com/${GitUser}/aws/main/tendang.sh" && chmod +x tendang
 wget -O clear-log "https://raw.githubusercontent.com/${GitUser}/aws/main/clear-log.sh" && chmod +x clear-log
- wget -O update "https://raw.githubusercontent.com/${GitUser}/aws/main/update.sh" && chmod +x update 
+wget -O update "https://raw.githubusercontent.com/${GitUser}/aws/main/update.sh" && chmod +x update 
 
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 
