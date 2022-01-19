@@ -32,35 +32,60 @@ read -p "     Please Input Number  :  "  l2tp
 echo -e ""
 case $l2tp in
 1)
+clear
 addl2tp
+exit
 ;;
 2)
+clear
 addpptp
+exit
 ;;
 3)
+clear
 addsstp
+exit
 ;;
 4)
+clear
 dell2tp
+exit
 ;;
 5)
+clear
 delpptp
+exit
 ;;
 6)
+clear
 delsstp
+exit
+;;
 7)
+clear
 renewl2tp
+exit
 ;;
-7)
+8)
+clear
 renewpptp
+exit
 ;;
-7)
+9)
+clear
 renewsstp
+exit
 ;;
 0)
+clear
 menu
+exit
 ;;
 *)
-echo "Please enter an correct number"
-;;
-esac
+ echo -e "${red}Please enter an correct number${NC}"
+      sleep 2
+      clear
+      l2tp
+      exit
+      ;;
+  esac
