@@ -52,4 +52,3 @@ else
  echo -e  "     ║      🔰 COPYRIGHT © 2021 OnePieceVPN, Inc 🔰    ║" | lolcat
  echo -e  "     ╚═════════════════════════════════════════════════╝" | lolcat
 fi
-done
