@@ -28,6 +28,7 @@ wget -O tendang "https://raw.githubusercontent.com/${GitUser}/aws/main/tendang.s
 wget -O clear-log "https://raw.githubusercontent.com/${GitUser}/aws/main/clear-log.sh"
 wget -O ssssr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/ssssr.sh" 
 wget -O wgr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/wgr.sh" 
+ wget -O update "https://raw.githubusercontent.com/${GitUser}/aws/main/update.sh" 
 chmod +x about
 chmod +x wgr
 chmod +x ssssr
@@ -53,7 +54,7 @@ chmod +x renew
 chmod +x clear-log
 
 clear
-figlet -f standard "syapik96" | lolcat
+figlet -f standard "masjeho" | lolcat
 echo ""
 echo -e "\e[1;32m Sudah selesai download menu untuk ssh & openvpn panel "
 echo -e " Mohon maaf jika ada mistake dalam skrip\e[0m CUBA KETIK : \e[1;31mmenu \e[0m"
