@@ -11,8 +11,8 @@ clear
 cd
 # Install Script SSH WebSocket-Python
 cd /usr/local/bin/
-##wget -q -O /usr/local/bin/ws-openssh "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-openssh"
-##chmod +x /usr/local/bin/ws-openssh
+wget -q -O /usr/local/bin/ws-openssh "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-openssh"
+chmod +x /usr/local/bin/ws-openssh
 wget -q -O /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-dropbear"
 chmod +x /usr/local/bin/ws-dropbear
 wge -q -O /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-stunnel"
@@ -23,11 +23,11 @@ chmod +x /usr/local/bin/ws-stunnel
 # Install system auto run
 cd /etc/systemd/system
 # System OpenSSH Over WebSocket-Python
-##wget -q -O /etc/systemd/system/ws-openssh.service "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-openssh.service"
-##chmod +x /etc/systemd/system/ws-openssh.service
+wget -q -O /etc/systemd/system/ws-openssh.service "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-openssh.service"
+chmod +x /etc/systemd/system/ws-openssh.service
 # Enable & Start & Restart ws-openssh service
-##systemctl enable ws-openssh.service
-##systemctl start ws-openssh.service
+systemctl enable ws-openssh.service
+systemctl start ws-openssh.service
 
 # System Dropbear Over WebSocket-Python
 wget -q -O /etc/systemd/system/ws-dropbear.service "https://raw.githubusercontent.com/syapik96/aws/main/websocket-python/ws-dropbear.service"
@@ -52,7 +52,7 @@ systemctl start ws-stunnel.service
 
 ## Restart service
 systemctl daemon-reload
-##systemctl restart ws-openssh.service
+systemctl restart ws-openssh.service
 systemctl restart ws-dropbear.service
 systemctl restart ws-stunnel.service
 ##systemctl restart ws-ovpn.service
