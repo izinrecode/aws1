@@ -56,7 +56,7 @@ case $trojan in
       echo -e " Good bye-bye "
       sudo -i
       exit
-      :;
+      ;;
       *)
       echo -e "${red}Please enter an correct number${NC}"
       sleep 2
