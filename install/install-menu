@@ -28,8 +28,9 @@ wget -O tendang "https://raw.githubusercontent.com/${GitUser}/aws/main/tendang.s
 wget -O clear-log "https://raw.githubusercontent.com/${GitUser}/aws/main/clear-log.sh"
 wget -O ssssr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/ssssr.sh" 
 wget -O wgr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/wgr.sh" 
- wget -O update "https://raw.githubusercontent.com/${GitUser}/aws/main/update.sh" 
+wget -O update "https://raw.githubusercontent.com/${GitUser}/aws/main/update.sh" 
 chmod +x about
+chmod +x update
 chmod +x wgr
 chmod +x ssssr
 chmod +x add-host
