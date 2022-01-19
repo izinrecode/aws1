@@ -28,7 +28,7 @@ useradd -e `date -d "$masaaktif days" +"%Y-%m-%d"` -s /bin/false -M $Login
 exp="$(chage -l $Login | grep "Account expires" | awk -F": " '{print $2}')"
 url=$( wget -qO- http://ipecho.net/plain );
 IP=$(wget -qO- icanhazip.com);
-domain=$(cat /etc/v2ray/domain);
+domain=$(cat /root/domain);
 echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 echo -e " [*][*]============================================================================[*][*]" | lolcat
 echo -e "                      Informasi Akaun SSH & OpenVPN" | lolcat
