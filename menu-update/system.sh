@@ -64,7 +64,7 @@ case $system in
 		;;
 		6)
 		clear
-		wbmn
+		webmin.sh
 		exit
 		;;
 		7)
