@@ -50,6 +50,7 @@ case $trojan in
       4)
       clear
       cektr
+      exit
       ;;
       0)
       clear
