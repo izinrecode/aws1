@@ -15,7 +15,7 @@ wget -O usernew "https://raw.githubusercontent.com/${GitUser}/aws/main/usernew.s
 wget -O trial "https://raw.githubusercontent.com/${GitUser}/aws/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/${GitUser}/aws/main/hapus/hapus.sh"
 wget -O member "https://raw.githubusercontent.com/${GitUser}/aws/main/member.sh"
-wget -o wbmn "https://raw.githubusercontent.com/${GitUser}/aws/main/wbmn.sh"
+wget -o wbmn "https://raw.githubusercontent.com/${GitUser}/aws/main/webmin.sh"
 wget -O delete "https://raw.githubusercontent.com/${GitUser}/aws/main/hapus/delete.sh"
 wget -O cek "https://raw.githubusercontent.com/${GitUser}/aws/main/cek.sh"
 wget -O restart "https://raw.githubusercontent.com/${GitUser}/aws/main/restart.sh"
