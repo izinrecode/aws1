@@ -107,10 +107,10 @@ case $system in
 		exit
 		;;
 		14)
-		echo -e "\e[1;31m SORRY!!!! Still No Update , Sila semak repo https://github.com/syapik96/aws masa kesemasa\e[0m "
-		sleep 5
+		echo -e "\e[1;31m update\e[0m "
+		sleep 2
 		clear
-		system
+		update
 		exit
 		;;
 		0)
