@@ -28,6 +28,7 @@ echo -e  " $bl ║\e[m$bd 11$bl]\e[m$bd  Info Script Auto Install" | lolcat
 echo -e  " $bl ║\e[m$bd 12$bl]\e[m$bd  Restart All Service" | lolcat
 echo -e  " $bl ║\e[m$bd 13$bl]\e[m$bd  Change Banner"  | lolcat
 echo -e  " $bl ║\e[m$bd 14$bl]\e[m$bd  Update" | lolcat
+echo -e  " $bl ║\e[m$bd 15$bl]\e[m$bd  ganti port" | lolcat
 echo -e  " $bl ║\e[m" | lolcat  
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
 echo -e  "  ║            0 ) Main Menu      x ) Exit                     ║" | lolcat
@@ -111,6 +112,11 @@ case $system in
 		sleep 2
 		clear
 		update
+		exit
+		;;
+		15)
+		clear
+		chport
 		exit
 		;;
 		0)
