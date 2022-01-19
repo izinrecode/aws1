@@ -4,7 +4,7 @@ GitUser="masjeho"
 # location 
 cd /usr/local/sbin
 # hapus yang terdahulu elak conflik 
-rm -rf /usr/local/sbin/{trojaan,sssh,add-host,menu,system,hapus,member,renew,restart,cek,trial,webmin.sh,delete,info,autokick,ceklim,tendang,clear-log,ram}
+rm -rf /usr/local/sbin/{l2tp,sssr,wgr,cff,cfh,cfdxport-ovpn,port-squid,port-ssl,port-vless,port-tr,port-sstp,port-vless,port-wg,port-ws,chport,restart,trojaan,sssh,add-host,menu,system,hapus,member,renew,restart,cek,trial,webmin.sh,delete,info,autokick,ceklim,tendang,clear-log,ram}
 # update menu
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/${GitUser}/aws/main/about.sh"
@@ -42,7 +42,9 @@ wget -O port-tr "https://raw.githubusercontent.com/${GitUser}/aws/main/port-tr.s
 wget -O port-vless "https://raw.githubusercontent.com/${GitUser}/aws/main/port-vless.sh"
 wget -O port-wg "https://raw.githubusercontent.com/${GitUser}/aws/main/port-wg.sh"
 wget -O port-ws "https://raw.githubusercontent.com/${GitUser}/aws/main/port-ws.sh"
-chmod + xport-ovpn
+wget -O restart "https://raw.githubusercontent.com/${GitUser}/aws/main/restart.sh"
+chmod +x restart
+chmod +x xport-ovpn
 chmod +x port-squid
 chmod +x port-ssl
 chmod +x port-sstp
