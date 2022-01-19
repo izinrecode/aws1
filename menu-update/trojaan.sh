@@ -47,6 +47,10 @@ case $trojan in
       renewtr
       exit
       ;;
+      4)
+      clear
+      cektr
+      ;;
       0)
       clear
       menu
