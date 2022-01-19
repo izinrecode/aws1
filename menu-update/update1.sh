@@ -29,7 +29,9 @@ wget -O clear-log "https://raw.githubusercontent.com/${GitUser}/aws/main/clear-l
 wget -O ssssr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/ssssr.sh" 
 wget -O wgr "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/wgr.sh" 
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
+wget -O l2tp "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/l2tp.sh"
 chmod +x trojaan
+chmod +x l2tp
 chmod +x about
 chmod +x wgr
 chmod +x ssssr
