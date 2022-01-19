@@ -33,7 +33,25 @@ wget -O l2tp "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/
 wget -O cfd "https://raw.githubusercontent.com/${GitUser}/aws/main/panel-domain/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/${GitUser}/aws/main/panel-domain/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/${GitUser}/aws/main/panel-domain/cfh.sh"
+wget -O chport "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/chport.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/${GitUser}/aws/main/port-ovpn.sh"
+wget -O port-squid "https://raw.githubusercontent.com/${GitUser}/aws/main/port-squid.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/${GitUser}/aws/main/port-ssl.sh"
+wget -O port-sstp "https://raw.githubusercontent.com/${GitUser}/aws/main/port-sstp.sh"
+wget -O port-tr "https://raw.githubusercontent.com/${GitUser}/aws/main/port-tr.sh"
+wget -O port-vless "https://raw.githubusercontent.com/${GitUser}/aws/main/port-vless.sh"
+wget -O port-wg "https://raw.githubusercontent.com/${GitUser}/aws/main/port-wg.sh"
+wget -O port-ws "https://raw.githubusercontent.com/${GitUser}/aws/main/port-ws.sh"
+chmod + xport-ovpn
+chmod +x port-squid
+chmod +x port-ssl
+chmod +x port-sstp
+chmod +x port-tr
+chmod +x port-vless
+chmod +x port-wg
+chmod +x port-ws
 chmod +x cfd
+chmod +x chport
 chmod +x cff
 chmod +x cfh
 chmod +x trojaan
