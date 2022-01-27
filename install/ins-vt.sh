@@ -508,7 +508,7 @@ echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 sleep 2
 GitUser="masjeho"
 # Download Script
-cd /usr/local/sbin
+cd /usr/bin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
 wget -O v2raay "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/v2raay.sh"
 wget -O vleess "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/vleess.sh"
