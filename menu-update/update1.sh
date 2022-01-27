@@ -2,7 +2,7 @@
 
 GitUser="masjeho"
 # location 
-cd /usr/local/sbin
+cd /usr/bin
 # hapus yang terdahulu elak conflik 
 rm -rf /usr/local/sbin/{l2tp,sssr,wgr,cff,cfh,cfdxport-ovpn,port-squid,port-ssl,port-vless,port-tr,port-sstp,port-vless,port-wg,port-ws,chport,restart,trojaan,sssh,add-host,menu,system,hapus,member,renew,restart,cek,trial,webmin.sh,delete,info,autokick,ceklim,tendang,clear-log,ram}
 # update menu
